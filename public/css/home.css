@@ -42,7 +42,7 @@ body{
 
 .left-box, .right-box {
   flex: 1;
-  padding: 20px;
+  padding: 21px;
   box-sizing: border-box;
 }
 
