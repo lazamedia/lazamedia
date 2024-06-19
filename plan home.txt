@@ -1,0 +1,56 @@
+Header:
+
+Logo Sekolah
+Navigasi Utama (Beranda, Program, Tentang Kami, Kontak, dll.)
+Tombol Login/Daftar
+
+Hero Section:
+Judul Menarik (Contoh: "Belajar Online dengan Cara Baru")
+Deskripsi Singkat tentang Sekolah Online Anda
+Call-to-Action (CTA) seperti "Daftar Sekarang" atau "Coba Gratis"
+Gambar atau Video Pendukung (misalnya gambar siswa belajar atau video pengantar)
+
+Tentang Kami:
+Deskripsi Singkat tentang Sekolah
+Misi dan Visi
+Nilai-Nilai Inti
+
+Program atau Kursus Populer:
+Daftar Program atau Kursus Terpopuler
+Keterangan Singkat untuk Masing-Masing Program
+Link untuk Melihat Detail atau Mendaftar
+
+Keunggulan Sekolah Online:
+Fitur dan Manfaat yang Ditawarkan (contoh: kurikulum yang disesuaikan, fleksibilitas waktu, akses ke materi premium, dll.)
+Testimoni atau Review dari Siswa
+
+Statistik dan Prestasi:
+Data Statistik yang Menarik (contoh: jumlah siswa yang terdaftar, tingkat kelulusan, dll.)
+Penghargaan atau Prestasi yang Pernah Dicapai
+
+Testimoni Siswa:
+Kutipan atau Video Testimoni dari Siswa dan Orang Tua
+Foto Siswa atau Ilustrasi Pendukung
+
+Cara Kerja atau Panduan Singkat:
+Langkah-Langkah untuk Memulai Belajar di Sekolah Anda
+Ilustrasi atau Infografik Pendukung
+
+Sekilas Tentang Pengajar:
+Profil Singkat Pengajar Utama atau Tim Pengajar
+Foto dan Kualifikasi Pengajar
+
+Blog atau Artikel Terbaru:
+Daftar Artikel atau Blog Terbaru tentang Pendidikan, Tips Belajar, dll.
+Link untuk Membaca Selengkapnya
+
+Footer:
+Link Navigasi Tambahan (Kebijakan Privasi, Syarat dan Ketentuan, dll.)
+Informasi Kontak (Alamat Email, Nomor Telepon, Alamat Fisik, dll.)
+Ikon Media Sosial
+Formulir Newsletter untuk Berlangganan
+
+Fitur Interaktif (opsional tapi disarankan):
+Chatbot atau Live Chat untuk Pertanyaan dan Dukungan
+Kalender Kegiatan atau Event
+FAQ (Frequently Asked Questions)

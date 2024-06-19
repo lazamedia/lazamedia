@@ -1,0 +1,133 @@
+/* body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-image: url('background.jpg');
+  background-size: cover;
+  background-position: center;
+} */
+
+body {
+    background-image: url('https://i.pinimg.com/736x/b1/da/c0/b1dac0470bdf2f7cc0c559599fba19f9.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  h1 {
+    margin-bottom: 10px;
+    color: rgb(255, 255, 255);
+    font-family: 'poppins';
+    font-weight: 600;
+    font-size: 45px;
+    text-shadow: aqua;
+  }
+  h4 {
+    margin-bottom: 10px;
+    color: rgb(255, 255, 255);
+    font-family: 'poppins';
+    font-weight: 400;
+    font-size: 25px;
+    text-shadow: aqua;
+  }
+  
+  .kolom1 {
+    margin-top: 5px;
+    margin-bottom: -10px;
+    text-align: center;
+    align-items: center;
+    color: #000000;
+    width: 100%;
+    padding: 20px;
+    
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .score-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    width: 400px;
+    margin-bottom: 10px;
+    color: #000000;
+    position: relative;
+  }
+  
+  .game-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  
+  canvas {
+    border: 5px solid #000;
+    background-color: rgba(255, 255, 255, 0.8);
+  }
+  
+  .button-container {
+    margin-top: 20px;
+    align-items: center;
+    text-align: center;
+  }
+  
+  button {
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 20pxs;
+  }
+  
+  .control-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+  }
+  
+  .control-buttons button {
+    width: 60px;
+    height: 60px;
+    margin: 5px;
+    font-size: 18px;
+    border-radius: 10px;
+    border: none;
+    background-color: #dbdbdb;
+    color: rgb(0, 0, 0);
+    border-color: #000;
+  }
+  
+  .control-buttons svg {
+    width: 20px;
+    height: 20px;
+  }
+  
+  .control-buttons div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .popup {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+  }
+  
+  .popup img {
+    width: 200px;
+    height: 200px;
+  }
+  

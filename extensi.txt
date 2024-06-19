@@ -1,0 +1,7 @@
+php intelephense
+laravel artisan
+laravel snippets
+laravel blade snippets
+laravel blade spacer
+laravel goto view
+

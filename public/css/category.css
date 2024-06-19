@@ -1,0 +1,37 @@
+h2 {
+    font-family: 'poppins';
+    font-weight: 600;
+    font-size: 35px;
+
+    color: #800080;
+    width: 100%;
+    
+  }
+.content {
+    background-color:#ffffff;
+    
+    border-radius: 8px;
+    border-color: blueviolet;
+    max-width: 100%;
+    
+    text-align: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.category-card {
+    transition: background-color 0.3s ease, border-radius 0.5s ease; /* Animasi perubahan warna latar belakang dan border-radius */
+    border-radius: 8px; /* Border-radius awal */
+}
+
+.category-card:hover {
+    background-color: yellow; /* Warna latar belakang ketika dihover */
+    border-radius: 50%; /* Border-radius saat dihover */
+}
+.card-title {
+    margin: 0; /* Menghapus margin */
+    text-align: center; /* Membuat teks menjadi di tengah */
+    border: none; /* Menghapus garis bawah */
+}
+
+
