@@ -13,6 +13,7 @@ use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\DashboardPostController;
 use App\Http\Controllers\DashboardJadwalukmController;
 use Illuminate\Auth\Middleware\Authorize;
+use App\Http\Controllers\ArticleController;
 
 Route::get('/', function () {
     return view('home',[
@@ -91,23 +92,7 @@ Route::resource('/dashboard/categories', AdminCategoryController::class)->middle
 
 Route::resource('/dashboard/jadwalukm', DashboardJadwalukmController::class)->middleware('auth');
 
-// Route::get('/categories/{category:slug}', function(Category $category) {
-//     return view('posts', [
-//         'title' => " $category->name",
-//         "active" => "categories",
-//         'posts' => $category->posts->load('category', 'author')
-        
-//     ]);
-// } );
-
-// Route::get('/authors/{author:username}', function(User $author){
-//     return view('posts', [
-//         'title' => "Post By  : $author->name",
-//         'posts' => $author->posts->load('category', 'author'),
-//         "active" => "posts"
-        
-//     ]);
-// });
+Route::resource('articles', ArticleController::class);
 
 
 
