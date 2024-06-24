@@ -36,6 +36,13 @@ Route::get('/sigin', function () {
     ]);
 });
 
+Route::get('/test', function () {
+    return view('test',[
+        "title" => "test",
+        "active" => "test"
+    ]);
+});
+
 Route::get('/tutorial', function () {
     return view('tutorial',[
         "title" => "tutorial",

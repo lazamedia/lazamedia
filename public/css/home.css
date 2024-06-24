@@ -1,6 +1,6 @@
 body{
   font-family: 'poppins';
-  background-color: #edf2f1;
+  background-color: #0d0025;
 }
 
 
@@ -397,7 +397,8 @@ body{
   justify-content: center;
   padding: 20px;
   margin-top: 60px;
-  background-color: #9af1fc;
+  color: rgb(0, 0, 0);
+  background-color: #eeeeee;
   /* border-top: 2px solid #000; 
   border-bottom: 2px solid #000;
   margin: 20px 0;  */
@@ -458,12 +459,13 @@ body{
 .b-untung img {
   margin-right: 10px;
   width: 50px;
+  color: white;
   margin-right: 30px;
 }
 
 .b-untung p {
   margin: 0;
-  color: #004741;
+  color: #000000;
 }
 
 /* Responsiveness */
