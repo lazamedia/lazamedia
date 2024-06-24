@@ -7,6 +7,8 @@ use App\Models\Category;
 use App\Models\Post;
 // use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
+use App\Models\Kelas;
+use App\Models\Materi;
 
 class DatabaseSeeder extends Seeder
 {
@@ -17,17 +19,15 @@ class DatabaseSeeder extends Seeder
     {
          User::factory(4)->create();
 
+        // User::factory()->create([
+        //     'name' => 'Test User',
+        //     'email' => 'test@example.com',
+        // ]);
 
         User::create([
-            'name' => ' MANDEGAR',
-            'username' => 'mandegar',
-            'email' => 'lazdi@gmail.com',
-            'password' => bcrypt('1234567890')
-        ]);
-        User::create([
-            'name' => 'LAZUARDI ',
-            'username' => 'lazuardi',
-            'email' => 'mixu@gmail.com',
+            'name' => 'LAZUARDI MANDEGAR',
+            'username' => 'lazuardimxt',
+            'email' => 'lazdi123@gmail.com',
             'password' => bcrypt('1234567890')
         ]);
 
@@ -49,9 +49,26 @@ class DatabaseSeeder extends Seeder
             
          ]);
 
+    
+
          Post::factory(20)->create();
 
-
+        // Post::create([
+        //     'title' => 'Judul Pertama',
+        //     'slug' => 'judulpertama',
+        //     'excerpt' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, minus?',
+        //     'body' => '<p>Lorem ipsum dolor sit ametLorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, minusLorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, minusLorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, minus.</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, minus Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, minus Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, minus Lorem ipsum dolor sit amet.</p><p>Lorem ipsum dolor sit ametLorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, minusLorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, minusLorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, minus.</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, minus Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, minus Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, minus Lorem ipsum dolor sit amet.</p><p>Lorem ipsum dolor sit ametLorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, minusLorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, minusLorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, minus.</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, minus Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, minus Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, minus Lorem ipsum dolor sit amet.</p>',
+        //     'category_id' => 1,
+        //     'user_id' => 1
+        // ]);
+        // Post::create([
+        //     'title' => 'Judul Kedua',
+        //     'slug' => 'judulkedua',
+        //     'excerpt' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, minus?',
+        //     'body' => '<p>Lorem ipsum dolor sit ametLorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, minusLorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, minusLorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, minus.</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, minus Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, minus Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, minus Lorem ipsum dolor sit amet.</p><p>Lorem ipsum dolor sit ametLorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, minusLorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, minusLorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, minus.</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, minus Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, minus Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, minus Lorem ipsum dolor sit amet.</p><p>Lorem ipsum dolor sit ametLorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, minusLorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, minusLorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, minus.</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, minus Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, minus Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, minus Lorem ipsum dolor sit amet.</p>',
+        //     'category_id' => 2,
+        //     'user_id' => 1
+        // ]);
         
 
     }
