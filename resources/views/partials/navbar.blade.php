@@ -7,7 +7,7 @@
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <style>
         .bg-purple {
-            background: linear-gradient(135deg, #0265a7, #0093b1, #7406a7, #003d5d);
+            background: linear-gradient(135deg, #0265a7, #0093b1, #04554a, #003d5d);
             background-size: 400% 400%;
             animation: gradientAnimation 15s ease infinite;
         }
@@ -23,9 +23,11 @@
                 background-position: 0% 50%;
             }
         }
-        .navbar-brand{
+
+        .navbar-brand {
             font-weight: 600;
         }
+
         .navbar-dark .navbar-nav .nav-link {
             color: rgba(255, 255, 255, 0.75);
         }
@@ -41,6 +43,7 @@
             top: 0;
             z-index: 1000;
             width: 100%;
+            transition: top 0.3s; /* Added transition for smooth animation */
         }
 
         .content {
@@ -53,8 +56,15 @@
                 display: block;
             }
         }
+
         .dropdown-menu {
             margin-top: 0;
+        }
+
+        @media (max-width: 991px) {
+            .navbar {
+                top: 0 !important;
+            }
         }
     </style>
 </head>
@@ -127,23 +137,24 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script>
-        $(document).ready(function () {
-            $('.dropdown').hover(function () {
-                if ($(window).width() >= 992) {
-                    $(this).find('.dropdown-menu').stop(true, true).delay(100).fadeIn(200);
-                }
-            }, function () {
-                if ($(window).width() >= 992) {
-                    $(this).find('.dropdown-menu').stop(true, true).delay(100).fadeOut(200);
-                }
-            });
+        document.addEventListener('DOMContentLoaded', (event) => {
+            let lastScrollTop = 0;
+            const navbar = document.querySelector('.navbar');
+            const mobileBreakpoint = 991; // maximum width for mobile view
 
-            $('.dropdown-toggle').click(function () {
-                if ($(window).width() < 992) {
-                    var $dropdownMenu = $(this).next('.dropdown-menu');
-                    $('.dropdown-menu').not($dropdownMenu).slideUp();
-                    $dropdownMenu.slideToggle();
+            window.addEventListener('scroll', function() {
+                let scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+
+                if (window.innerWidth > mobileBreakpoint) {
+                    if (scrollTop > lastScrollTop) {
+                        // Scroll down
+                        navbar.style.top = '-60px';
+                    } else {
+                        // Scroll up
+                        navbar.style.top = '0';
+                    }
                 }
+                lastScrollTop = scrollTop;
             });
         });
     </script>

@@ -8,7 +8,7 @@ body {
     margin:0;
     padding:0;
     font-family: 'poppins';
-    background: #01004e
+    background: #e2e2e270;
   }
   .login-box {
     position: absolute;
@@ -17,17 +17,18 @@ body {
     width: 400px;
     padding: 40px;
     transform: translate(-50%, -50%);
-    background: rgba(0,0,0,.5);
+    background: rgb(250, 248, 248);
     box-sizing: border-box;
-    box-shadow: 0 15px 25px rgba(0,0,0,.6);
+    box-shadow: 0 15px 25px rgba(0, 184, 174, 0.6);
     border-radius: 10px;
+    border: 1px solid #004741;
     
   }
   
   .login-box h2 {
     margin: 0 0 30px;
     padding: 0;
-    color: #fff;
+    color: #004741;
     text-align: center;
   }
   
@@ -39,10 +40,10 @@ body {
     width: 100%;
     padding: 10px 0;
     font-size: 16px;
-    color: #ffffff;
+    color: #004741;
     margin-bottom: 30px;
     border: none;
-    border-bottom: 1px solid #fff;
+    border-bottom: 1px solid #004741;
     outline: none;
     background: transparent;
     margin-left: 5px;
@@ -53,7 +54,7 @@ body {
     left: 0;
     padding: 10px 0;
     font-size: 13px;
-    color: #fff;
+    color: #004741;
     pointer-events: none;
     transition: .5s;
     margin-left: 10px;
@@ -63,7 +64,7 @@ body {
   .login-box .user-box input:valid ~ label {
     top: -20px;
     left: 0;
-    color: #03e9f4;
+    color: #004741;
     font-size: 12px;
   }
   
@@ -71,7 +72,7 @@ body {
     position: relative;
     display: inline-block;
     padding: 10px 20px;
-    color: #03e9f4;
+    color: #004741;
     font-size: 16px;
     text-decoration: none;
     text-transform: uppercase;
@@ -82,13 +83,13 @@ body {
     
   }
   .login-box button:hover {
-    background: #03e9f4;
+    background: #004741;
     color: #fff;
     border-radius: 5px;
-    box-shadow: 0 0 5px #03e9f4,
-                0 0 25px #03e9f4,
-                0 0 50px #03e9f4,
-                /* 0 0 100px #03e9f4; */
+    box-shadow: 0 0 5px #004741,
+                0 0 25px #004741,
+                0 0 50px #004741,
+                /* 0 0 100px #004741; */
   }
   
   .login-box button span {
@@ -101,7 +102,7 @@ body {
     left: -100%;
     width: 100%;
     height: 2px;
-    background: linear-gradient(90deg, transparent, #03e9f4);
+    background: linear-gradient(90deg, transparent, #004741);
     animation: btn-anim1 1s linear infinite;
   }
   @keyframes btn-anim1 {
@@ -118,7 +119,7 @@ body {
     right: 0;
     width: 2px;
     height: 100%;
-    background: linear-gradient(180deg, transparent, #03e9f4);
+    background: linear-gradient(180deg, transparent, #004741);
     animation: btn-anim2 1s linear infinite;
     animation-delay: .25s
   }
@@ -137,7 +138,7 @@ body {
     right: -100%;
     width: 100%;
     height: 2px;
-    background: linear-gradient(270deg, transparent, #03e9f4);
+    background: linear-gradient(270deg, transparent, #004741);
     animation: btn-anim3 1s linear infinite;
     animation-delay: .5s
   }
@@ -156,7 +157,7 @@ body {
     left: 0;
     width: 2px;
     height: 100%;
-    background: linear-gradient(360deg, transparent, #03e9f4);
+    background: linear-gradient(360deg, transparent, #004741);
     animation: btn-anim4 1s linear infinite;
     animation-delay: .75s
   }

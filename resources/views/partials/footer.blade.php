@@ -33,9 +33,7 @@
 <style>
   
   footer {
-    background: linear-gradient(135deg, #0265a7, #0093b1, #06a787, #76cebc);
-            background-size: 400% 400%;
-            animation: gradientAnimation 15s ease infinite;
+  background-color: #004741;
   color: white;
   padding: 20px 0;
   position: relative;
@@ -102,9 +100,7 @@ line-height: 1.6;
 }
 
 .footer-bottom {
-  background: linear-gradient(135deg, #0265a7, #0093b1, #00ddff, #a08fdc);
-            background-size: 400% 400%;
-            animation: gradientAnimation 15s ease infinite;
+background-color: #00A896 ;
 text-align: center;
 padding: 10px 0;
 }

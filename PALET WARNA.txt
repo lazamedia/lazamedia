@@ -1,0 +1,3 @@
+Primary Color: #004741 (Hijau Tua)
+Secondary Colors: #00A896 (Turquoise), #028090 (Teal), #05668D (Biru Laut Tua)
+Accent Colors: #D8F3DC (Mint Pastel), #FFDDC1 (Peach), #FFD166 (Kuning Hangat)
